@@ -1,8 +1,0 @@
-logging:
-  level:
-    com:
-      pivotal: INFO
-greetingController:
-  fortuneEnabled: true
-
-quoteServiceURI:http://quote-service-dev.cfapps.io/quote
