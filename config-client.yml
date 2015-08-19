@@ -3,6 +3,6 @@ logging:
     com:
       pivotal: INFO
 greetingController:
-  fortuneEnabled: false
+  fortuneEnabled: true
 
 quoteServiceURI:http://quote-service-dev.cfapps.io/quote
