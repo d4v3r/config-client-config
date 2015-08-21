@@ -1,2 +1,4 @@
-greeting:
-  displayFortune: true
+logging:
+  level:
+    io:
+      pivotal: DEBUG
