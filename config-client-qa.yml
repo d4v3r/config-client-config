@@ -1,4 +1,1 @@
-logging:
-  level:
-    io:
-      pivotal: INFO
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
