@@ -1,7 +1,9 @@
+server:
+  port: 8787
 eureka:
   instance:
     hostname: ${vcap.application.uris[0]:localhost}
-    nonSecurePort: 80
+    nonSecurePort: ${vcap.application.uris[0] ? 80 : ${server.port}}
     metadataMap:
       instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
   client:
